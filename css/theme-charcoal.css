@@ -404,8 +404,8 @@ a:active {
   -moz-transition: all 0.3s ease;
   position: relative;
   width: auto;
-  color: #333333;
-  border-color: #333333;
+  color: #ffffff;
+  border-color: #ffffff;
 }
 .text-link.text-white {
   border-color: #fff;
@@ -442,8 +442,8 @@ a:active {
   color: #0d0d0d;
 }
 .inline-link {
-  color: #333333;
-  font-weight: 700;
+  color: #ffffff;
+  font-weight: 600;
 }
 .inline-linl:hover {
   color: #0d0d0d;
