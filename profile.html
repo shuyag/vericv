@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/img/ico/badge.png">
 
-    <title>Veri-CV: Diego Rodriguez</title>
+    <title>Veri-CV: Dan Elitzer</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -24,24 +24,18 @@
       <script src="assets/js/html5shiv.js"></script>
       <script src="assets/js/respond.min.js"></script>
     <![endif]-->
+  
   </head>
 
   <body>
-
-
     <div class="container">
     	<div class="col-lg-6 col-lg-offset-3">
     	
     		<!-- ===== vCard Navigation ===== -->
     		<div class="row w">
     			<div class="col-md-4">
-    				<img class="img-responsive" src="assets/img/avatar.jpg" alt="">
-					<ul class="nav nav-tabs nav-stacked" id="myTab">
-					  <li class="active"><a href="#about">About</a></li>
-					  <li><a href="#profile">Profile</a></li>
-					  <li><a href="#portfolio">Portfolio</a></li>
-					  <li><a href="#contact">Contact</a></li>
-					</ul>    			
+    				<div data-passname="delitzer"></div>
+    				<!--<div data-passname="shuyagong" data-summary="I am a VC"></div>-->			
 				</div><!-- col-md-4 -->
 
     		<!-- ===== vCard Content ===== -->
@@ -50,11 +44,12 @@
 	    			
 	    			  <!-- ===== First Tab ===== -->
 					  <div class="tab-pane active" id="about">
-					  	<h3>Diego Rodriguez</h3>
-					  	<h5>Partner at IDEO + Stanford d.school Professor</h5>
-					  	<p>San Francisco Bay Area | Design</p>
-					  	<hr>
-					  	<p>Diego Rodriguez is a senior partner at IDEO, a founding professor at the Stanford d.school, an Entrepreneur-in-Residence Emeritus at Harvard Business School, and a Visiting Scientist at the MIT Media Lab.</p> 
+					  	<ul class="nav nav-tabs nav-stacked" id="myTab">
+					  <li class="active"><a href="#about">About</a></li>
+					  <li><a href="#profile">Profile</a></li>
+					  <li><a href="#portfolio">Portfolio</a></li>
+					  <li><a href="#contact">Contact</a></li>
+					</ul>    
 					  	<p class="pull-right red"><img src="img/ico/smlogo.png"></p>
 					  </div><!-- tab about -->
 					  
@@ -154,6 +149,27 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+
+<script>
+var oneName = "spencerp";
+document.getElementById("getName").innerHTML = oneName; 
+</script>
+
+    <script type="text/javascript">
+(function(doc){
+    var js, id = 'onenamejs', ref = doc.getElementsByTagName('script')[0];
+    if (doc.getElementById(id)) {return;}
+    js = doc.createElement('script'); js.id = id;
+    js.src = 'https://s3.amazonaws.com/onename/onename-cards.js';
+    doc.head.appendChild(js);
+    var link, cssId = 'onenamecss';
+    if (doc.getElementById(cssId)) {return;}
+    link = document.createElement('link');
+    link.id = cssId; link.rel = 'stylesheet'; link.type = 'text/css';
+    link.href = 'https://s3.amazonaws.com/onename/onename-cards.css';
+    doc.head.appendChild(link);
+}(document));
+</script>
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
 	<script>
